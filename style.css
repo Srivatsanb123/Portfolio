@@ -94,7 +94,7 @@ main {
 
 #skills li {
     margin: 1vw;
-    font-size: 1vw;
+    font-size: 0.8vw;
     padding: 1vw 2vw;
     background-color: #e0e0e0;
     border-radius: 5px;
@@ -111,13 +111,13 @@ main {
 
 #contact-flex {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    min-height: 50px;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 15vw;
 }
 
 #contact-flex a {
-    font-size: 1vw;
+    font-size: 0.8vw;
     padding: 1vw 2vw;
     background-color: #3498db;
     text-align: center;
@@ -132,3 +132,4 @@ footer {
     padding: 10px;
     background-color: #2c3e50;
 }
+
