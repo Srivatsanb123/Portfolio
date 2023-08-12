@@ -27,7 +27,7 @@ nav li a {
     display: block;
     color: #ecf0f1;
     text-align: center;
-    padding: 2.5vw 3vw;
+    padding: 1vw 3vw;
     text-decoration: none;
     transition: background-color 0.3s ease-in-out;
 }
@@ -38,7 +38,7 @@ nav li a:hover {
 }
 
 main {
-    margin-top: 70px;
+    margin-top: 1vw;
     padding: 20px;
 }
 
