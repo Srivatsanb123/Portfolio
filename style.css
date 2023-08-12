@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color:  #000a56;
+}
+
+header {
+    background-color: #2c3e50;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: right;
+}
+
+nav li a {
+    display: block;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav li a:hover {
+    background-color: #34495e;
+    color: #ffffff; 
+}
+
+main {
+    margin-top: 70px;
+    padding: 20px;
+}
+
+#about {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    background-color:white;
+    border-radius: 20px;
+    padding: 20px;
+    align-items: center;
+}
+
+#name {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+#summary {
+    text-align: left;
+    padding: 10px;
+    font-size: 16px;
+    word-spacing: 3px;
+    margin-top: 10px;
+}
+
+#profile {
+    width: 20vw;
+    height: auto;
+    border-radius: 20%;
+    border: 1px solid #ccc;
+    align-self: center;
+}
+
+#skills {
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#skills h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#skills li {
+    margin: 5px;
+    padding: 8px 12px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+
+#education,
+#project,
+#contact {
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#contact-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    min-height: 50px;
+}
+
+#contact-flex a {
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    color: #bdc3c7;
+    text-align: center;
+    padding: 10px;
+    background-color: #2c3e50;
+}
