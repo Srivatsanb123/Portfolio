@@ -94,7 +94,7 @@ main {
 
 #skills li {
     margin: 1vw;
-    font-size: 0.8vw;
+    font-size: 1vw;
     padding: 1vw 2vw;
     background-color: #e0e0e0;
     border-radius: 5px;
@@ -117,7 +117,7 @@ main {
 }
 
 #contact-flex a {
-    font-size: 0.8vw;
+    font-size: 1vw;
     padding: 1vw 2vw;
     background-color: #3498db;
     text-align: center;
@@ -134,13 +134,21 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-    #skills li {
-        font-size: 1vw;
-        padding: 1.5vw 3vw;
+    #summary{
+        font-size: 2vw;
     }
-
+    #skills li {
+        font-size: 2vw;
+        padding: 2vw 4vw;
+    }
+    #contact-flex {
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+        min-height: 15vw;
+    }
     #contact-flex a {
-        font-size: 1vw;
-        padding: 1.5vw 3vw;
+        font-size: 2vw;
+        padding: 2vw 4vw;
     }
 }
